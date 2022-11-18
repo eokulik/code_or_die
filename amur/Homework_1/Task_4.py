@@ -1,0 +1,6 @@
+x = input('Please, set the size of the first side of the right triangle, cm. ')
+x = abs(int(x))
+y = input('Please, set the size of the second side of the right triangle, cm. ')
+y = abs(int(y))
+print('Area of the triangle is', x*y/2,'cm2')
+print('Hypotenuse is', (x**2+y**2)**(1/2),'cm')

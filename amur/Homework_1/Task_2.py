@@ -1,0 +1,5 @@
+x = input('Please, set the first number. ')
+x = int(x)
+y = input('Please, set the second number. ')
+y = int(y)
+print('x − y / 1 + xy is ', x - y/1 +x*y)
