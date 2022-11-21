@@ -10,3 +10,4 @@ avg_geom = (math.sqrt(a*b))
 print('Среднее геометрическое: ', avg_geom)
 
 
+
