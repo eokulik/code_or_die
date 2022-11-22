@@ -3,8 +3,8 @@
 while True:
     try:
         a = int(input('Please enter the cube edge length : '))
-        print('volume =', a**3)
-        print('lateral surface area =', 4*a**2)
+        print('volume =', a ** 3)
+        print('lateral surface area =', 4 * a ** 2)
         break
     except Exception as e:
         print('Wrong input format')
