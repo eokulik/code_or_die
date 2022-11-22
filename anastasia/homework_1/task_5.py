@@ -6,5 +6,5 @@ while True:
         print('volume =', a ** 3)
         print('lateral surface area =', 4 * a ** 2)
         break
-    except Exception as e:
+    except Exception:
         print('Wrong input format')

@@ -7,5 +7,5 @@ while True:
         print('hypotenuse =', (a ** 2 + b ** 2) ** 0.5)
         print('square =', (a * b) / 2)
         break
-    except Exception as e:
+    except Exception:
         print('Wrong input format')

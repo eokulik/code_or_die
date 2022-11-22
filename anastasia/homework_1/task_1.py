@@ -8,5 +8,5 @@ while True:
         print('difference =', a - b)
         print('product =', a * b)
         break
-    except Exception as e:
+    except Exception:
         print('Wrong input format')

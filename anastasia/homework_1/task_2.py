@@ -6,5 +6,5 @@ while True:
         y = float(input('Please enter y value: '))
         print('x - y / 1 + xy =', (x - y) / (1 + x * y))
 
-    except Exception as e:
+    except Exception:
         print('Wrong input format')

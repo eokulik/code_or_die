@@ -7,5 +7,5 @@ while True:
         print('arithmetic mean =', (a + b) / 2)
         print('geometric mean =', (a * b) ** 0.5)
         break
-    except Exception as e:
+    except Exception:
         print('Wrong input format')
