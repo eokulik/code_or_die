@@ -6,7 +6,7 @@ my_dict = {
     'dict': {
         'key1': 'v1', 'key2': 'v2', 'key3': 'v3', 'key4': 'v4', 'key5': 'v5'},
     'set': {
-        32, 'dfdf', 345, 87, 12 },
+        32, 'dfdf', 345, 87, 12},
     'str':
         'Mauris fringilla odio sit amet pretium ultricies. Pellentesque habitant morbi tristique'
 }
@@ -16,7 +16,7 @@ my_dict['list'].append('extra_value')
 my_dict['list'].pop(1)
 print(my_dict['list'])
 
-my_dict['dict']['i am a tuple']= 'extra_value'
+my_dict['dict']['i am a tuple'] = 'extra_value'
 my_dict['dict'].pop('key2')
 print(my_dict['dict'])
 
@@ -39,6 +39,4 @@ print(my_dict['str'].index('pretium'))
 print(my_dict['str'].count('l'))
 
 print(my_dict)
-
-
 
