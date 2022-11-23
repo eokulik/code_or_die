@@ -39,3 +39,6 @@ print(my_dict['str'].index('pretium'))
 print(my_dict['str'].count('l'))
 
 print(my_dict)
+
+
+
