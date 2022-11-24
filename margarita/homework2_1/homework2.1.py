@@ -10,18 +10,18 @@ my_dict = {
     'str':
         'Mauris fringilla odio sit amet pretium ultricies. Pellentesque habitant morbi tristique'
 }
-print(my_dict['tuple'][1:]) #fixed
+print(my_dict['tuple'][1:])
 
 my_dict['list'].append('extra_value')
 my_dict['list'].pop(1)
 print(my_dict['list'])
 
-my_dict['dict'][('i am a tuple')] = 'extra_value' #fixed
+my_dict['dict'][('i am a tuple')] = 'extra_value'
 my_dict['dict'].pop('key2')
 print(my_dict['dict'])
 
-my_dict['set'].add('new component') #fixed
-my_dict['set'].remove('dfdf') #fixed
+my_dict['set'].add('new component')
+my_dict['set'].remove('dfdf')
 
 
 print(my_dict['str'][:8])
