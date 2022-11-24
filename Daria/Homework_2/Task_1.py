@@ -1,7 +1,7 @@
 my_dict = {'tuple': (1, 2, 3, 4, 5),
            'list': [1, 2, 3, 4, 5],
            'dict': {'one': 'cat', 'two': 'dog', 'three': 'bird', 'four': 'fish', 'five': 'cow'},
-           'set': set((1, 2, 3, 4, 5)),
+           'set': {1, 2, 3, 4, 5},
            'str': 'Mauris fringilla odio sit amet pretium ultricies. Pellentesque habitant morbi tristique'}
 
 # printed element 'tuple'
@@ -12,7 +12,7 @@ my_dict['list'].append(8)
 my_dict['list'].pop(1)
 
 # tasks with element 'dict'
-my_dict['dict']['i am a tuple'] = 'wow'
+my_dict['dict'][('i am a tuple',)] = 'wow'
 my_dict['dict'].pop('one')
 
 # tasks with element 'set'
