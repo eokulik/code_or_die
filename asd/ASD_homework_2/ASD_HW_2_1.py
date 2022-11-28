@@ -11,7 +11,7 @@ my_dict = {'tuple': (48609, True, 42, 416, 9893),
            'list': [99, 88, 77, 66, 55, False],
            'dict': {'1': 'True', '44': 'True', '90': 'True', '98939893': 'True', '41698': 'False'},
            'set': {1, 4242, False, True, 99, 66},
-           'str': 'Mauris fringilla odio sit amet pretium ultricies. Pellentesque habitant morbi tristique' }
+           'str': 'Mauris fringilla odio sit amet pretium ultricies. Pellentesque habitant morbi tristique'}
 # Для того, что хранится под ключом ‘tuple’:
 # выведите на экран все элементы начиная со второго и до конца
 print(my_dict['tuple'][1:])
@@ -46,20 +46,14 @@ print(my_dict['str'][:7])
 # четыре символа из центра строки
 # print(my_dict['str'])
 # print((len(my_dict['str'])))
-center = int(len(my_dict['str'])/2)
+center = int(len(my_dict['str']) / 2)
 # print(center)
-print(my_dict['str'][(center-2):(center+2)])
+print(my_dict['str'][(center - 2):(center + 2)])
 # символы с индексами кратными трем
 print(my_dict['str'][0::3])
 # выведите на экран на каком месте находится слово “pretium” (делается как поиск элемента в списке)
 print(my_dict['str'].find('pretium'))
 # выведите на экран количество букв “l”
-print(my_dict['str'].count('l') )
+print(my_dict['str'].count('l'))
 
 print(my_dict)
-
-
-
-
-
-
