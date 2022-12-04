@@ -1,0 +1,7 @@
+a = input('Please, enter first number.')
+a = int(a)
+b = input('Please, enter second number.')
+b = int(b)
+print('Sum = ', a + b)
+print('Difference = ', a - b)
+print('Product = ', a * b)
