@@ -8,5 +8,15 @@ import re
 
 string = "Etiam tincidunt neque erat, quis molestie enim imperdiet vel. " \
          "Integer urna nisl, facilisis vitae semper at, dignissim vitae libero"
-split_string = re.sub('[,.]', '', string).split(' ')
-print('ing '.join(split_string))
+
+
+def add_ing_ending(word):
+    if len(re.findall('[,.]', word)):
+        word = word[:-1] + 'ing' + word[-1]
+    else:
+        word = word + 'ing'
+    return word
+
+
+result = ' '.join(list(map(add_ing_ending, string.split(' '))))
+print(result)
