@@ -1,5 +1,5 @@
 import random
-number = random.randint(1,8)
+number = random.randint(1, 8)
 while True:
     person_number = int(input("Введите загаланное число: "))
     if number == person_number:
