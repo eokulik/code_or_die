@@ -15,4 +15,3 @@ for word in text_list:
         word = word + 'ing'
     new_text.append(word)
 print(' '.join(new_text))
-
