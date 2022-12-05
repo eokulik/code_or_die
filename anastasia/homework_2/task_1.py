@@ -42,8 +42,8 @@ print(my_dict['str'][:7])
 
 # четыре символа из центра строки
 middle_of_str = int(len(my_dict['str']) / 2)
-print(my_dict['str'][middle_of_str - 1], my_dict['str'][middle_of_str], my_dict['str'][middle_of_str + 1], \
-    my_dict['str'][middle_of_str + 2])
+print(my_dict['str'][middle_of_str - 1], my_dict['str'][middle_of_str], my_dict['str'][middle_of_str + 1],
+      my_dict['str'][middle_of_str + 2])
 
 # символы с индексами кратными трем
 print(my_dict['str'][3::3])
