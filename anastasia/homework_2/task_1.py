@@ -24,7 +24,7 @@ my_dict['list'].pop(1)
 
 # Для того, что хранится под ключом ‘dict’:
 # добавьте элемент с ключом ('i am a tuple',) и любым значением
-my_dict['dict']['i am a tuple'] = 6
+my_dict['dict'][('i am a tuple',)] = 6
 
 # удалите какой-нибудь элемент
 my_dict['dict'].pop('b')
@@ -38,7 +38,7 @@ my_dict['set'].remove('w')
 # Для того, что хранится под ключом ‘str’:
 # Выведите на экран из строки следующие срезы:
 # первые восемь символов
-print(my_dict['str'][:7])
+print(my_dict['str'][:8])
 
 # четыре символа из центра строки
 middle_of_str = int(len(my_dict['str']) / 2)
