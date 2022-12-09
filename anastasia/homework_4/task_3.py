@@ -11,4 +11,4 @@ while len(random_numbers) < 15:
 print('max -', max(random_numbers))
 print('min -', min(random_numbers))
 print('sum -', sum(random_numbers))
-print('avg -', sum(random_numbers)/len(random_numbers))
+print('avg -', sum(random_numbers) / len(random_numbers))
