@@ -1,13 +1,12 @@
 import math
 
-my_dict = {'tuple': '', 'list': '', 'dict':'', 'set': '', 'str': ''}
+my_dict = {'tuple': '', 'list': '', 'dict': '', 'set': '', 'str': ''}
 
 my_dict['tuple'] = ('text', 123, False, 234, 345)
 my_dict['list'] = ['text1', 223, True, 233, 243]
 my_dict['dict'] = {'a1': 111, 'a2': 222, 'a3': 'True', 'a4': 'True', 'a5': 333}
 my_dict['set'] = {11, 22, 33, 44, 55}
 my_dict['str'] = 'Mauris fringilla odio sit amet pretium ultricies. Pellentesque habitant morbi tristique'
-
 
 print(my_dict['tuple'][1:])
 
