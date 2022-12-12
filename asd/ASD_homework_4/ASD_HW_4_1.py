@@ -7,6 +7,7 @@
 # 600, True - '$3785'
 import random
 import sys
+
 salary = int(input('Input salary $ '))
 bonus = bool(random.getrandbits(1))
 bonus_add = int(random.randint(0, sys.maxsize))

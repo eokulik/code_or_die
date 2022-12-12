@@ -3,6 +3,7 @@
 # минимальное, сумму всех рандомов и их среднее арифметическое.
 
 import random
+
 my_list = []
 range_a = range(1, 16)
 for i in range_a:
