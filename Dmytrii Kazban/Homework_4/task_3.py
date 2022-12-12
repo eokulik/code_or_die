@@ -13,7 +13,5 @@ minimum = min(list)
 total = sum(list)
 avg = sum(list) / len(list)
 
-print("The max number: ", maximum,  "\nthe min number: ", minimum, "\nthe sum of numbers: ", total, "\nthe avg: ",
+print("The max number: ", maximum, "\nthe min number: ", minimum, "\nthe sum of numbers: ", total, "\nthe avg: ",
       avg)
-
-    # print(max(list))

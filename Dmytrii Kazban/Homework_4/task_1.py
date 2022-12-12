@@ -8,4 +8,3 @@ if bonus:
     salary += random.randint(1, 10000)
 
 print(f"Your salary is ${salary}")
-
