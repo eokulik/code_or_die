@@ -11,6 +11,6 @@ salary = int(input('Input salary $ '))
 bonus = bool(random.getrandbits(1))
 bonus_add = int(random.randint(0, sys.maxsize))
 if bonus is True:
-    print('$', (salary+bonus_add))
+    print('$', (salary + bonus_add))
 else:
     print('$', salary)

@@ -10,4 +10,4 @@ for i in range_a:
 print('Максимальное значение:', max(my_list))
 print('Минимальное значение:', min(my_list))
 print('Сумма значений:', sum(my_list))
-print('Среднее арифметическое значений:', sum(my_list)/max(range_a))
+print('Среднее арифметическое значений:', sum(my_list) / max(range_a))
