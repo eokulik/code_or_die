@@ -9,8 +9,8 @@
 from random import randint
 
 salary = int(input('Please enter your salary: '))
-salary_with_bonus = int
 bonus = bool(randint(0, 1))
+
 if bonus is True:
     salary_with_bonus = salary + randint(1, 1000)
 else:
