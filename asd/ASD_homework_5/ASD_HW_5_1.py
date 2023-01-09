@@ -1,4 +1,5 @@
-import math
+
+
 
 def calc():
     operation = int(input('''
@@ -30,7 +31,7 @@ def calc():
             print('{} * {} = '.format(numb1, numb2))
             print(numb1 * numb2)
         elif operation == 4:
-            if numb2 !=0:
+            if numb2 != 0:
                 print("Частное: ", int(numb1 // numb2))
                 print("Остаток: ", int(numb1 % numb2))
             else:
