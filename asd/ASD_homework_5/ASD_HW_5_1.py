@@ -57,5 +57,3 @@ operation()
 
 while True:
     again()
-
-
