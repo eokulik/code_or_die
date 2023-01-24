@@ -1,0 +1,3 @@
+def calc(first, second, operation):
+    if opertaion == '+':
+    .....
