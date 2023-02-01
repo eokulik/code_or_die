@@ -17,6 +17,7 @@ class Cat:
     def pows(self):
         del self.__pows
 
+
 barsik = Cat()
 barsik.pows = 5
 # del barsik.pows
