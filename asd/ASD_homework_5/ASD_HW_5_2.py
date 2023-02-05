@@ -1,7 +1,7 @@
-## I've found the bug with combination: Encode 'z' with offset 1 return error:
-## IndexError: string index out of range- I've found the issue on stackoverflow:
-## https://stackoverflow.com/questions/8712659/python-error-indexerror-string-index-out-of-range
-## but have no idea how to fix it
+# I've found the bug with combination: Encode 'z' with offset 1 return error:
+# IndexError: string index out of range- I've found the issue on stackoverflow:
+# https://stackoverflow.com/questions/8712659/python-error-indexerror-string-index-out-of-range
+# but have no idea how to fix it
 
 import string
 
