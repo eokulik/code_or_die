@@ -1,5 +1,5 @@
-import requests
 import json
+import requests
 
 
 def get_all_posts():
@@ -22,7 +22,10 @@ def add_post():
             "userId": 3,
             "id": 15,
             "title": "Code or Die",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae placerat dolor, porta semper nulla"
+            "body": (
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                "Pellentesque vitae placerat dolor, porta semper nulla"
+            )
         }
     )
     response = requests.request(
@@ -41,5 +44,6 @@ def delete_post():
         print("Ok")
     else:
         print(f'Failed + {response.status_code}')
+
 
 delete_post()

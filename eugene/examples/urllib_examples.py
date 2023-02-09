@@ -1,5 +1,5 @@
-from urllib import request, error
 import json
+from urllib import request, error
 
 
 def get_all_posts():
@@ -25,7 +25,10 @@ def add_post():
         "userId": 3,
         "id": 15,
         "title": "Code or Die",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae placerat dolor, porta semper nulla"
+        "body": (
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            "Pellentesque vitae placerat dolor, porta semper nulla"
+        )
     }).encode('ascii')
     response = json.load(request.urlopen(req))
     print(response)
@@ -38,7 +41,10 @@ def update_post():
         "userId": 3,
         "id": 15,
         "title": "Code or Die",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae placerat dolor, porta semper nulla"
+        "body": (
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+            "Pellentesque vitae placerat dolor, porta semper nulla"
+        )
     }).encode('ascii')
     response = json.load(request.urlopen(req))
     print(response)
