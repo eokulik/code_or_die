@@ -28,13 +28,15 @@ class Bouquet:
         self.sunflower = FieldFlowers(True, 100, 'green and yellow', 333, 15)
 
     def time_to_die(self):
-        die_time = (self.rose.life + self.chamomile.life +
-                    self.tulip.life + self.sunflower.life) / 4
+        die_time = (
+            self.rose.life + self.chamomile.life
+            + self.tulip.life + self.sunflower.life) / 4
         return f'Average time of bouquet dying is {die_time}'
 
     def total_price(self):
-        total_price = self.rose.price + self.chamomile.price + \
-                      self.tulip.price + self.sunflower.price
+        total_price = (
+            self.rose.price + self.chamomile.price
+            + self.tulip.price + self.sunflower.price)
         return f'Total price is {total_price}'
 
     def sort_by_param(self, param):
