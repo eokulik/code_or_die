@@ -25,7 +25,7 @@ google_testing = Book('How Google Tests Software', 'James Whittaker', 320, '978-
 
 idiot.reserved = True
 
-Book.print_book_info(idiot)
-Book.print_book_info(novel_1984)
-Book.print_book_info(algernon_flowers)
-Book.print_book_info(google_testing)
+idiot.print_book_info()
+novel_1984.print_book_info()
+algernon_flowers.print_book_info()
+google_testing.print_book_info()
