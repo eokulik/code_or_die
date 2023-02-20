@@ -7,7 +7,6 @@ PRICE_LIST = '''тетрадь 50р
 рюкзак 500р'''
 
 
-
 def price_int():
     middle_text = []
     result = list(PRICE_LIST.split())
