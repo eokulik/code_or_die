@@ -8,7 +8,13 @@ from endpoints.get_posts import GetPosts
 @allure.feature('GET endpoint')
 @allure.story('Get all')
 @allure.title('Check that all 100 posts returned')
-@allure.issue('https://kontur.fibery.io/Tasks/Task/Geocint-Upload-all-indicators-via-layer-uploading-endpoint-on-dev-target-13537', name='Bug')
+@allure.issue(
+    (
+            'https://kontur.fibery.io/Tasks/Task/Geocint-Upload-all-indicators-'
+            'via-layer-uploading-endpoint-on-dev-target-13537'
+    ),
+    name='Bug'
+)
 def test_get_all_posts(my_text):
     with allure.step('Printing content of the my_text variable'):
         print(my_text)
