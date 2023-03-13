@@ -13,9 +13,11 @@ class Library:
 
     def __str__(self):
         if self.reserved:
-            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}, {self.reserved_text}"
+            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, " \
+                   f"материал: {self.material}, {self.reserved_text}"
         else:
-            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}"
+            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, " \
+                   f"материал: {self.material}"
 
 
 # create 5 instances of the Book class
