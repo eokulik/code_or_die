@@ -8,11 +8,13 @@ class Library:
         self.author = author
         self.pages = pages
         self.ISBN = ISBN
-        self.reserved = False # default value for the "reserved" flag
+        self.reserved = False  # default value for the "reserved" flag
 
     def __str__(self):
-        if self.reserved: return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}, Зарезервирована"
-        else: return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}"
+        if self.reserved:
+            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}, Зарезервирована"
+        else:
+            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}"
 
 
 # create 5 instances of the Book class
