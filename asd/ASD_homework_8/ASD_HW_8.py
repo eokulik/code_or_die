@@ -1,7 +1,8 @@
 
 class Library:
-    material = 'бумага'
+    material = "бумага"
     text = True
+    reserved_text = "Зарезервирована"
 
     def __init__(self, title, author, pages, ISBN):
         self.title = title
@@ -12,7 +13,7 @@ class Library:
 
     def __str__(self):
         if self.reserved:
-            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}, Зарезервирована"
+            return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}, {self.reserved_text}"
         else:
             return f"Название: {self.title}, Автор: {self.author}, страниц: {self.pages}, материал: {self.material}"
 
