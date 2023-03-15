@@ -31,7 +31,7 @@ class Bouquet:
         return sum([f.price for f in self.flowers])
 
     def fresh_time(self):
-        return sum([f.life_time for f in self.flowers])/len(self.flowers)
+        return sum([f.life_time for f in self.flowers]) / len(self.flowers)
 
     def sort_by_(self, param):
         return [f.name for f in sorted(self.flowers, key=lambda x: getattr(x, param))]
