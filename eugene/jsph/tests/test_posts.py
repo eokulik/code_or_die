@@ -45,7 +45,7 @@ def test_add_post():
             "userId": 3,
             "id": 15,
             "title": "Code or Die",
-            "body": (
+            "dumpsody": (
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
                 "Pellentesque vitae placerat dolor, porta semper nulla"
             )

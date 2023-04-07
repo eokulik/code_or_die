@@ -8,7 +8,7 @@ import pytest
 # @pytest.mark.skip
 @pytest.mark.parametrize('repeat', range(10))
 @pytest.mark.parametrize('urls_control', ['https://media.tenor.com/'
-                                         'Kdw0KeHJMogAAAAd/will-you-please-come-home-randy-marsh.gif'])
+'Kdw0KeHJMogAAAAd/will-you-please-come-home-randy-marsh.gif'])
 def test_create_a_meme(base_url, auth_token, texts, urls, tag, infos, urls_control, repeat):
     create_meme = PostEnpoints(base_url, auth_token, texts, urls, tag, infos)
     assert create_meme.is_response_200(), f"Expected status code 200, but got {create_meme.status_code}"
